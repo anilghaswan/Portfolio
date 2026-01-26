@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgb(0, 142, 174);
+}
+
+#container {
+  height: 400px;
+  width: 700px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 5px;
+  margin-top: 80px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+  /* transition: 0.3s ease-in-out; */
+}
+h2 {
+  margin-top: 20px;
+}
+input {
+  background-color: rgb(16, 16, 16);
+  color: rgb(42, 42, 42);
+  height: 25px;
+  width: 190px;
+  border: none;
+  border-radius: 2px;
+  text-transform: capitalize;
+  font: bolder solid;
+  margin: 20px 0px 0px 20px;
+  padding: 5px;
+}
+input[type="text"]:hover {
+  border: transparent;
+}
+ul {
+  display: block;
+}
+textarea {
+  background-color: rgb(16, 16, 16);
+  color: rgb(42, 42, 42);
+  height: 130px;
+  width: 407px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  /* margin: 20px 0px 10px 90px; */
+  border-radius: 2px;
+  text-transform: capitalize;
+  font: bolder solid;
+  padding: 5px;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(0, 142, 174);
+  height: 30px;
+  width: 100px;
+  /* margin: 20px 50px 0px 72px; */
+  transition: 0.35 ease-in-out;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+button:hover {
+  box-shadow: 0px 4px 8px rgb(0, 142, 174);
+}
+
+/* 
+ */

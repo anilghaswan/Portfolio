@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 142, 174);
+}
+#contioner {
+  height: 450px;
+  width: 750px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
+  margin-top: 30px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  font-weight: bolder;
+  line-height: 2px;
+}
+span {
+  color: rgb(0, 142, 174);
+}
+#box {
+  background-color: transparent;
+  height: 300px;
+  width: 600px;
+  margin: 20px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+}
+
+.project {
+  height: 180px;
+  width: 360px;
+  margin: 4px;
+  background: rgb(25, 25, 25);
+  border-radius: 10px;
+}
+.project:hover {
+  animation: effect 4s infinite alternate;
+}
+@keyframes effect {
+  from {
+  }
+  to {
+    border:
+      0.2px rgb(0, 142, 174),
+      lightskyblue,
+      lightslategray;
+    box-shadow: 0px 2px 4px rgb(0, 142, 174);
+    transform: scale(1);
+  }
+}
+/* 
+ */
+h4 {
+  margin: 5px 0px 0px -190px;
+  padding: 0px;
+}
+p {
+  margin: 0px 0px 0px -150px;
+  padding: 0px;
+}
+
+.project-image {
+  height: 80px;
+  width: 140px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  left: 215px;
+}
+hr {
+  height: 0.01px;
+  color: rgb(175, 175, 175);
+  width: 340px;
+}
+.hr2 {
+  height: 0.01px;
+  color: rgb(175, 175, 175);
+  width: 340px;
+  margin-top: -12px;
+}
+button {
+  background-color: rgb(0, 142, 174);
+  margin: 0px 100px 0px -90px;
+  padding: 0px;
+  height: 25px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+  /* font-weight: 1000; */
+}
+button a {
+  font-weight: 1000;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+}
+button :hover {
+  box-shadow: 0px 4px 8px rgb(0, 191, 255);
+}
