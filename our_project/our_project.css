@@ -23,7 +23,7 @@ h2 {
   font-weight: bolder;
   line-height: 2px;
 }
-span {
+.Skills-span {
   color: rgb(0, 142, 174);
 }
 #box {
@@ -50,12 +50,9 @@ span {
   from {
   }
   to {
-    border:
-      0.2px rgb(0, 142, 174),
-      lightskyblue,
-      lightslategray;
-    box-shadow: 0px 2px 4px rgb(0, 142, 174);
-    transform: scale(1);
+    border: 2px solid rgb(58, 58, 58);
+    box-shadow: rgb(57, 57, 57);
+    /* transform: scale(1); */
   }
 }
 /* 
@@ -72,11 +69,21 @@ p {
 .project-image {
   height: 80px;
   width: 140px;
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(54, 54, 54);
   border-radius: 10px;
   position: relative;
   top: -20px;
-  left: 215px;
+  left: 212px;
+  background-size: cover;
+}
+.project-image img {
+  height: 80px;
+  width: 140px;
+  border-radius: 5px;
+  transition: 0.1s ease-in-out;
+}
+.project-image:hover {
+  transform: scale(1.06);
 }
 hr {
   height: 0.01px;
@@ -104,6 +111,7 @@ button a {
   color: rgb(25, 25, 25);
   text-decoration: none;
 }
-button :hover {
+button:hover,
+button::after {
   box-shadow: 0px 4px 8px rgb(0, 191, 255);
 }

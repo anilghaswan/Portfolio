@@ -15,8 +15,8 @@ function submitForm() {
     password === correct_password &&
     Gmail === G_Mail
   ) {
-    alert("Your details were successfully submitted ✅");
+    alert("Your details were successfully submitted ");
   } else {
-    alert("Invalid username or password ❌");
+    alert("Invalid username or password ");
   }
 }
